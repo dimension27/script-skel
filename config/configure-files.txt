@@ -1,0 +1,9 @@
+_ss_environment.php
+config/apache.conf
+config/crontab.txt
+config/logrotate.txt
+script/env.sh
+script/apachectl
+db/init.mysql.sql
+public/mysite/_config.php
+public/.htaccess-default

@@ -1,0 +1,4 @@
+# This crontab needs to be installed for the @@SERVER_USER@@ account:
+# sudo -u @@SERVER_USER@@ crontab [this file]
+MAILTO=@@ADMIN_EMAIL@@
+0	*	*	*	*	@@BASE_PATH@@/script/rebuild-cache.sh > /dev/null
